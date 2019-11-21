@@ -10,8 +10,7 @@ def swap_case(s):
             a+=(let.upper())
     return a
     
-if __name__ == '__main__':
-    s = input("Enter the string :")
-    result = swap_case(s)
-    print("You Entered : {0}".format(s))
-    print("Revised String : ",result)
+s = input("Enter the string :")
+result = swap_case(s)
+print("You Entered : {0}".format(s))
+print("Revised String : ",result)
